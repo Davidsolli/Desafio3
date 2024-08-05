@@ -1,0 +1,10 @@
+insert into tb_client(name, income, birth_date, children) values('David Oliveira', 4000.00, '2003-05-27', 0);
+insert into tb_client(name, income, birth_date, children) values('Iara Gomes', 5000.00, '2002-11-9', 0);
+insert into tb_client(name, income, birth_date, children) values('Maria Clara', 8500.00, '1999-06-20', 1);
+insert into tb_client(name, income, birth_date, children) values('Lucas Prado', 1425.00, '1980-12-25', 2);
+insert into tb_client(name, income, birth_date, children) values('Machado de Assis', 20000.00, '1970-02-18', 4);
+insert into tb_client(name, income, birth_date, children) values('Dom Pedro', 50000.00, '1995-04-11', 1);
+insert into tb_client(name, income, birth_date, children) values('Napoleon da Silva', 3000.00, '2000-05-15', 1);
+insert into tb_client(name, income, birth_date, children) values('Albert Souza', 6000.00, '1978-08-01', 5);
+insert into tb_client(name, income, birth_date, children) values('Donald Pato', 4500.00, '2003-12-09', 1);
+insert into tb_client(name, income, birth_date, children) values('Josê de Alencar', 7200.00, '2001-11-02', 0);
