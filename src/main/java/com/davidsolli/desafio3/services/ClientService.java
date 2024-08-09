@@ -35,6 +35,14 @@ public class ClientService {
         return new ClientDTO(entity);
     }
 
+    @Transactional
+    public ClientDTO update(Long id, ClientDTO dto) {
+        Client entity = repository.getReferenceById(id);
+        copyToEntity(entity, dto);
+        entity = repository.save(entity);
+        return new ClientDTO(entity);
+    }
+
     public void copyToEntity(Client entity, ClientDTO dto) {
         entity.setName(dto.getName());
         entity.setIncome(dto.getIncome());
