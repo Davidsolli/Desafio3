@@ -1,15 +1,18 @@
 package com.davidsolli.desafio3.DTO;
 
 import com.davidsolli.desafio3.entities.Client;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
 
 import java.time.LocalDate;
-import java.util.Optional;
 
 public class ClientDTO {
 
     private Long id;
+    @NotBlank(message = "Campo requerido!")
     private String name;
     private Double income;
+    @PastOrPresent(message = "Insira uma data valida!")
     private LocalDate birthDate;
     private Integer children;
 
